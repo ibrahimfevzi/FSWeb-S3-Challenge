@@ -371,7 +371,7 @@ footer p {
 }
 
 /* mobile media query */
-@media (max-width: 428px) {
+@media screen and (max-width: 428px) {
   body div {
     display: flex;
     flex-direction: column;
@@ -533,5 +533,9 @@ footer p {
   footer p {
     font-size: 1rem;
     text-align: center;
+  }
+  #mail-giris {
+    width: 75%;
+    margin: auto;
   }
 }
